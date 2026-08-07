@@ -1,4 +1,4 @@
-// API DO DIA 4 (Banco de dados e consulta assíncrona)
+// API (Banco de dados e consulta assíncrona)
 const bancoDadosAcademia = {
     "musculacao": { nome: "Musculação Livre", valor: 110, horarios: "06h às 22h" },
     "spinning": { nome: "Spinning / Bike", valor: 140, horarios: "Ter e Qui - 19h" },
@@ -19,7 +19,7 @@ async function consultarPlanoAcademia(nomeDoPlano) {
 }
 
 // =========================================================
-// 🚀 DIA 5: ROTEADOR DE MENSAGENS DO BOT
+// ROTEADOR DE MENSAGENS DO BOT
 // =========================================================
 
 async function processarMensagemWhatsApp(mensagemCliente) {

@@ -24,7 +24,7 @@ async function consultarPlanoAcademia(nomeDoPlano) {
     }
 }
 
-// === DIA 5: ROTEADOR DE MENSAGENS ===
+// === ROTEADOR DE MENSAGENS ===
 async function processarMensagemWhatsApp(mensagemCliente) {
     const textoLimpo = mensagemCliente.toLowerCase().trim();
 
@@ -55,7 +55,7 @@ async function processarMensagemWhatsApp(mensagemCliente) {
 }
 
 // =========================================================
-// 🚀 DIA 6: SERVIDO WEB & ROTA DE WEBHOOK (EXPRESS)
+//  SERVIDO WEB & ROTA DE WEBHOOK (EXPRESS)
 // =========================================================
 
 // Esta é a rota que o WhatsApp vai chamar quando alguém mandar uma mensagem!
